@@ -145,13 +145,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AddFuncs.cpp" />
     <ClCompile Include="field.cpp" />
     <ClCompile Include="Gem.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AddFuncs.h" />
     <ClInclude Include="field.h" />
     <ClInclude Include="Gem.h" />
   </ItemGroup>

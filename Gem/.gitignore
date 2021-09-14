@@ -1,2 +1,4 @@
-/Debug
-/Release
+Gem.vcxproj.filters
+Gem.vcxproj
+Gem.vcxproj.user
+Debug

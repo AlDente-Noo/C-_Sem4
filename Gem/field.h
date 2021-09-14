@@ -7,9 +7,12 @@
 using namespace std;
 class Field : public sf::IntRect {
 public:
-	Field(sf::RenderWindow* window);
-	void Fill();
-private:
+	Field(sf::RenderWindow* window, const int gemSize);
+	void toBe();
+	void toDraw();
 	sf::RenderWindow* Window;
-	vector<vector<shared_ptr<Gem>>> Gems;
+private:
+	
+	int nGemsX, nGemsY;
+	vector <vector<shared_ptr<Gem>>> Gems;
 };
